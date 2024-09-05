@@ -1,16 +1,78 @@
-# build_pdf
+# PDF Generation and Sharing in Flutter
 
-A new Flutter project.
+A Flutter project designed to help developers implement seamless PDF generation and sharing capabilities, making document management within Flutter applications both efficient and intuitive.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+Before you begin, make sure your Flutter environment is properly set up. Follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install) if needed.
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+In the command terminal, run the following commands to get started:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+$ git clone https://github.com/singlapriyanka315/pdf-share-flutter.git
+$ cd pdf-share-flutter
+$ flutter run
+```
+
+### Simulate for iOS
+
+#### Method One
+- Open the project in Xcode from `ios/Runner.xcodeproj`.
+- Hit the **play** button to run the app.
+
+#### Method Two
+Alternatively, you can run the following commands in your terminal to open the iOS Simulator and launch the app:
+
+```sh
+$ open -a Simulator
+$ flutter run
+```
+
+### Simulate for Android
+
+Ensure you have an Android emulator installed and running, then execute the following command:
+
+```sh
+$ flutter run
+```
+
+## Key Features
+
+- **PDF Generation**: Create PDFs using the `pdf` package, with customizable text, images, and tables.
+- **File Storage**: Save generated PDFs in the local storage using `path_provider`.
+- **PDF Sharing**: Easily share the generated PDF files via other apps using `share_plus`.
+
+## How to Use
+
+This project includes the following core methods:
+
+- `generatePdf()`: Generates a PDF document and saves it to the device’s local storage.
+- `sharePdf()`: Shares the generated PDF via email, messaging apps, or other supported platforms.
+
+## Dependencies
+
+Ensure you have the following dependencies added to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.8.0
+  path_provider: ^2.0.11
+  share_plus: ^6.3.0
+```
+
+Install the dependencies by running:
+
+```sh
+$ flutter pub get
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
