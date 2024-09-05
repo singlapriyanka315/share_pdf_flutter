@@ -1,4 +1,4 @@
-# PDF Generation and Sharing in Flutter
+<img width="328" alt="Screenshot 2024-09-05 at 11 58 36 AM" src="https://github.com/user-attachments/assets/5a2d3d93-a3a6-40c9-8c0a-855494c1ba08"># PDF Generation and Sharing in Flutter
 
 A Flutter project designed to help developers implement seamless PDF generation and sharing capabilities, making document management within Flutter applications both efficient and intuitive.
 
@@ -64,6 +64,15 @@ dependencies:
   path_provider: ^2.0.11
   share_plus: ^6.3.0
 ```
+## Demo
+<img width="328" alt="Screenshot 2024-09-05 at 11 58 48 AM" src="https://github.com/user-attachments/assets/905a710c-2a25-4397-a155-1ba3a7871712">
+
+<img width="328" alt="Screenshot 2024-09-05 at 11 58 48 AM" src="https://github.com/user-attachments/assets/27a01f38-cef4-443e-9154-5d6ff5cd6fc3">
+
+<img width="328" alt="Screenshot 2024-09-05 at 11 59 07 AM" src="https://github.com/user-attachments/assets/b3a77af2-2527-499e-8adc-597538273ce2">
+
+<img width="328" alt="Screenshot 2024-09-05 at 11 59 28 AM" src="https://github.com/user-attachments/assets/5d51a265-18c4-4668-ae1d-b29660032973">
+
 
 Install the dependencies by running:
 
